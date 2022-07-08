@@ -1,4 +1,3 @@
-/* text-color body  */
 :root{
     --main-color: #757575;
     --efect-color: #2196F3;
@@ -7,12 +6,14 @@
     --primari-bg-color: #ffffff;
     --but-color: #F5F4FA;
 }
+
 body{
     color: var(--main-color);
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+
 .nav{
     color: var(--main-color);
 }
@@ -20,25 +21,34 @@ body{
 .nav:focus{
 color: var(--efect-color);
 }
-.headline, .team, h3.team-carts{
-    text-align: center;
-    font-size: 14px;
-    font-weight: 700;
+
+.title{
     color: var(--h-color);
-}
-.team.title{
+    font-weight: 700;
     font-size: 36px;
 }
+
+.headline.team, .headline.title{
+    font-size: 14px;
+    font-weight: 700;
+
+}
+.headline.team, .team-carts, .team.title{
+    text-align: center;
+}
+
 .hero{
     background-color: var(--background-color);
     /* width: 1600px;
-    height: 600px; */
+    height: 600px;  */
     font-size: 44px;
     text-align: center;
+    font-weight: 900;
     color: var(--primari-bg-color);
 }
 .button-hero{
     font-size: 16px;
+    font-weight: 700;
     cursor: pointer;
     background-color: var(--efect-color);
     color: var(--primari-bg-color);
