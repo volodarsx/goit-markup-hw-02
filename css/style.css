@@ -12,24 +12,19 @@ body{
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
-a{
+a, a:visited{
     text-decoration: none;
 }
 
 .text{
-font-size: 14px;
-line-height: 1.71%;
+    font-size: 14px;
+    line-height: 1.71%;
 }
 
 .nav{
     color: var(--main-color);
-font-weight: 500;
-font-size: 14px;
-}
-
-.nav:hover,
-.nav:focus{
-color: var(--efect-color);
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .title, .subtitle, .logo, .button-hero{
@@ -44,6 +39,10 @@ color: var(--efect-color);
 
 .title-carts{
     font-size: 18px;
+}
+
+.carts-text{
+    font-size: 16px;
 }
 
 .headline.team, .team-carts, .team.title{
@@ -65,21 +64,31 @@ color: var(--efect-color);
     color: var(--primari-bg-color);
 }
 
-.button-hero:hover{
+.button-hero:hover,
+.button-hero:focus{
     font-size: 16px;
     cursor: pointer;
     background-color: #188CE8;
 }
 
-.button{
+.button, .filter{
     cursor: pointer;
     background-color: var(--but-color);
     color: var(--h-color);
 
 }
+.contact .link{
+    color: var(--main-color);
+}
 
 .link{
     text-decoration: none;
+    color: var(--background-color);
+}
+
+.link:hover,
+.link:focus{
+color: var(--efect-color);
 }
 
 .link.logo{
@@ -91,4 +100,40 @@ color: var(--efect-color);
 .logo-web{
     font-family: 'Raleway', sans-serif;
     color: var(--efect-color);
+}
+
+.footer{
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    background-color: var(--background-color);
+}
+
+.address{
+    color: rgba(255, 255, 255, 0.6);
+    
+}
+
+.post-adres{
+    color: var(--primari-bg-color);
+}
+
+.studio{
+    color: var(--primari-bg-color);
+}
+
+.filter{
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--but-color);
+    color: var(--h-color);
+}
+
+.filter:hover,
+.filter:focus{
+    background-color: var(--efect-color);
+    color: var(--primari-bg-color);
 }
