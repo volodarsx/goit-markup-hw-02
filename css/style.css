@@ -16,6 +16,8 @@ a, a:visited{
     text-decoration: none;
 }
 
+/* text */
+
 .text{
     font-size: 14px;
     line-height: 1.71%;
@@ -57,6 +59,15 @@ a, a:visited{
     color: var(--primari-bg-color);
 }
 
+/* button */
+
+.button, .filter{
+    cursor: pointer;
+    background-color: var(--but-color);
+    color: var(--h-color);
+
+}
+
 .button-hero{
     font-size: 16px;
     cursor: pointer;
@@ -71,19 +82,15 @@ a, a:visited{
     background-color: #188CE8;
 }
 
-.button, .filter{
-    cursor: pointer;
-    background-color: var(--but-color);
-    color: var(--h-color);
-
-}
-.contact .link{
-    color: var(--main-color);
-}
+/* link */
 
 .link{
     text-decoration: none;
     color: var(--background-color);
+}
+
+.contact .link{
+    color: var(--main-color);
 }
 
 .link:hover,
@@ -136,4 +143,8 @@ color: var(--efect-color);
 .filter:focus{
     background-color: var(--efect-color);
     color: var(--primari-bg-color);
+}
+
+.link.current{
+    color: var(--efect-color);
 }
