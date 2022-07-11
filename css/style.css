@@ -17,6 +17,10 @@ a:visited {
   text-decoration: none;
 }
 
+.list {
+  list-style: none;
+}
+
 /* text */
 .post-adres .text {
   font-size: 14px;
