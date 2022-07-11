@@ -121,10 +121,10 @@ a:visited {
 }
 
 .footer {
-  osition: absolute;
-  ont-weight: 400;
-  ont-size: 14px;
-  ackground-color: var(--background-color);
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--background-color);
 }
 
 .address {
