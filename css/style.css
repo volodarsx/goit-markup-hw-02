@@ -18,8 +18,7 @@ a:visited {
 }
 
 /* text */
-
-.text {
+.post-adres .text {
   font-size: 14px;
   line-height: 1.71%;
 }
