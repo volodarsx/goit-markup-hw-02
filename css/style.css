@@ -57,6 +57,11 @@ a:visited {
   text-align: center;
 }
 
+.subtitle,
+.features {
+  text-transform: uppercase;
+}
+
 .hero {
   text-transform: uppercase;
   background-color: var(--background-color);
@@ -116,10 +121,10 @@ a:visited {
 }
 
 .footer {
-  position: absolute;
-  font-weight: 400;
-  font-size: 14px;
-  background-color: var(--background-color);
+  osition: absolute;
+  ont-weight: 400;
+  ont-size: 14px;
+  ackground-color: var(--background-color);
 }
 
 .address {
