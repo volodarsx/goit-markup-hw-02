@@ -1,150 +1,155 @@
-:root{
-    --main-color: #757575;
-    --efect-color: #2196F3;
-    --h-color: #212121;
-    --background-color: #2F303A;
-    --primari-bg-color: #ffffff;
-    --but-color: #F5F4FA;
+:root {
+  --main-color: #757575;
+  --efect-color: #2196f3;
+  --h-color: #212121;
+  --background-color: #2f303a;
+  --primari-bg-color: #ffffff;
+  --but-color: #f5f4fa;
 }
 
-body{
-    color: var(--main-color);
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
+body {
+  color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
 }
-a, a:visited{
-    text-decoration: none;
+a,
+a:visited {
+  text-decoration: none;
 }
 
 /* text */
 
-.text{
-    font-size: 14px;
-    line-height: 1.71%;
+.text {
+  font-size: 14px;
+  line-height: 1.71%;
 }
 
-.nav{
-    color: var(--main-color);
-    font-weight: 500;
-    font-size: 14px;
+.nav {
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 14px;
 }
 
-.title, .subtitle, .logo, .button-hero{
-    color: var(--h-color);
-    font-weight: 700;
-    font-size: 36px;
+.title,
+.subtitle,
+.logo,
+.button-hero {
+  color: var(--h-color);
+  font-weight: 700;
+  font-size: 36px;
 }
 
-.subtitle{
-    font-size: 14px;
+.subtitle {
+  font-size: 14px;
 }
 
-.title-carts{
-    font-size: 18px;
+.title-carts {
+  font-size: 18px;
 }
 
-.carts-text{
-    font-size: 16px;
+.carts-text {
+  font-size: 16px;
 }
 
-.headline.team, .team-carts, .team.title{
-    text-align: center;
+.headline.team,
+.team-carts,
+.team.title {
+  text-align: center;
 }
 
-.hero{
-    background-color: var(--background-color);
-    font-size: 44px;
-    text-align: center;
-    font-weight: 900;
-    color: var(--primari-bg-color);
+.hero {
+  text-transform: uppercase;
+  background-color: var(--background-color);
+  font-size: 44px;
+  text-align: center;
+  font-weight: 900;
+  color: var(--primari-bg-color);
 }
 
 /* button */
 
-.button, .filter{
-    cursor: pointer;
-    background-color: var(--but-color);
-    color: var(--h-color);
-
+.button,
+.filter {
+  cursor: pointer;
+  background-color: var(--but-color);
+  color: var(--h-color);
 }
 
-.button-hero{
-    font-size: 16px;
-    cursor: pointer;
-    background-color: var(--efect-color);
-    color: var(--primari-bg-color);
+.button-hero {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: var(--efect-color);
+  color: var(--primari-bg-color);
 }
 
 .button-hero:hover,
-.button-hero:focus{
-    font-size: 16px;
-    cursor: pointer;
-    background-color: #188CE8;
+.button-hero:focus {
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #188ce8;
 }
 
 /* link */
 
-.link{
-    text-decoration: none;
-    color: var(--background-color);
+.link {
+  text-decoration: none;
+  color: var(--background-color);
 }
 
-.contact .link{
-    color: var(--main-color);
+.contact .link {
+  color: var(--main-color);
 }
 
 .link:hover,
-.link:focus{
-color: var(--efect-color);
+.link:focus {
+  color: var(--efect-color);
 }
 
-.link.logo{
-    font-family: 'Raleway', sans-serif;
-    font-size: 26px;
-
+.link.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
 }
 
-.logo-web{
-    font-family: 'Raleway', sans-serif;
-    color: var(--efect-color);
+.logo-web {
+  font-family: "Raleway", sans-serif;
+  color: var(--efect-color);
 }
 
-.footer{
-    position: absolute;
-    font-weight: 400;
-    font-size: 14px;
-    background-color: var(--background-color);
+.footer {
+  position: absolute;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: var(--background-color);
 }
 
-.address{
-    color: rgba(255, 255, 255, 0.6);
-    
+.address {
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.post-adres{
-    color: var(--primari-bg-color);
+.post-adres {
+  color: var(--primari-bg-color);
 }
 
-.studio{
-    color: var(--primari-bg-color);
+.studio {
+  color: var(--primari-bg-color);
 }
 
-.filter{
-    font-weight: 500;
-    font-size: 16px;
-    text-align: center;
-    letter-spacing: 0.03em;
-    cursor: pointer;
-    background-color: var(--but-color);
-    color: var(--h-color);
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: var(--but-color);
+  color: var(--h-color);
 }
 
 .filter:hover,
-.filter:focus{
-    background-color: var(--efect-color);
-    color: var(--primari-bg-color);
+.filter:focus {
+  background-color: var(--efect-color);
+  color: var(--primari-bg-color);
 }
 
-.link.current{
-    color: var(--efect-color);
+.link.current {
+  color: var(--efect-color);
 }
