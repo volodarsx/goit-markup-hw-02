@@ -57,8 +57,7 @@ a:visited {
   text-align: center;
 }
 
-.subtitle,
-.features {
+.subtitle.features {
   text-transform: uppercase;
 }
 
