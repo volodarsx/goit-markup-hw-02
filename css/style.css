@@ -11,6 +11,7 @@ body {
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
   text-decoration: none;
+  letter-spacing: 0.03em;
 }
 a,
 a:visited {
@@ -71,6 +72,7 @@ a:visited {
   text-align: center;
   font-weight: 900;
   color: var(--primari-bg-color);
+  letter-spacing: 0.06em;
 }
 
 /* button */
@@ -80,9 +82,14 @@ a:visited {
   cursor: pointer;
   background-color: var(--but-color);
   color: var(--h-color);
+  font-family: "Roboto", sans-serif;
+  border: 0;
+  border-radius: 4px;
 }
 
 .button-hero {
+  border: 0;
+  border-radius: 4px;
   font-size: 16px;
   cursor: pointer;
   background-color: var(--efect-color);
@@ -123,7 +130,6 @@ a:visited {
 }
 
 .footer {
-  position: absolute;
   font-weight: 400;
   font-size: 14px;
   background-color: var(--background-color);
@@ -131,6 +137,7 @@ a:visited {
 
 .address {
   color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
 }
 
 .post-adres {
