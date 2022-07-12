@@ -10,12 +10,7 @@
 body {
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
-  text-decoration: none;
   letter-spacing: 0.03em;
-}
-a,
-a:visited {
-  text-decoration: none;
 }
 
 .list {
