@@ -11,7 +11,7 @@ body {
   color: var(--main-color);
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  line-height: 114%;
+  line-height: 1.14;
 }
 
 .list {
@@ -20,18 +20,18 @@ body {
 
 /* text */
 .text {
-  line-height: 171%;
+  line-height: 1.71;
   font-size: 14px;
 }
 .post-adres .text {
   font-size: 14px;
-  line-height: 171%;
 }
 
 .nav {
   color: var(--main-color);
   font-weight: 500;
   font-size: 14px;
+  letter-spacing: 1.12;
 }
 
 .title,
@@ -41,28 +41,30 @@ body {
   color: var(--h-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 117%;
+  line-height: 1.17;
 }
 
 .subtitle {
   font-size: 14px;
-  line-height: 114%;
+  line-height: 1.14;
 }
 
 .subtitle-team {
   color: var(--h-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.9;
   text-align: center;
 }
 
 .title-carts {
   font-size: 18px;
+  line-height: 2;
 }
 
 .carts-text {
   font-size: 16px;
+  line-height: 1.9;
 }
 
 .team-title {
@@ -87,7 +89,7 @@ body {
   font-weight: 900;
   color: var(--primari-bg-color);
   letter-spacing: 0.06em;
-  line-height: 136%;
+  line-height: 1.36;
 }
 
 /* button */
@@ -104,11 +106,11 @@ body {
 }
 
 .button-hero {
-  font-family: "Roboto", sans-serif;
+  font-family: inherit;
   border: 0;
   border-radius: 4px;
   font-size: 16px;
-  line-height: 188%;
+  line-height: 1.88;
   cursor: pointer;
   background-color: var(--efect-color);
   color: var(--primari-bg-color);
@@ -123,11 +125,16 @@ body {
 
 /* link */
 
-.link {
+.link,
+.link-filter {
   text-decoration: none;
   color: var(--background-color);
+  line-height: 2;
 }
 
+.link-filter {
+  background-color: var(--primari-bg-color);
+}
 .contact .link {
   color: var(--main-color);
 }
@@ -140,6 +147,7 @@ body {
 .link.logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
+  line-height: 1.19;
 }
 
 .logo-web {
@@ -156,7 +164,7 @@ body {
 .address {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  line-height: 171%;
+  line-height: 1.71;
 }
 
 .post-adres {
